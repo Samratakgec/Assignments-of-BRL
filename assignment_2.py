@@ -15,8 +15,8 @@ class sum (A) :
         print("The Sum is ")
         
     def cal (self,a,b,c,d) :
-        print(a+c)
-        print(b+d)
+        print(a+c,"+ i",b+d)
+        
     
     
 class diff (A) :
@@ -25,8 +25,7 @@ class diff (A) :
         print("The Difference is ")
         
     def cal (self,a,b,c,d) :
-        print(a-c)
-        print(b-d) 
+       print(a-c,"+ i",b-d)
         
         
 class mul (A) :
@@ -35,8 +34,8 @@ class mul (A) :
         print("Their product is")
         
     def cal (self,a,b,c,d) :
-        print((a*c)-(b*d)) 
-        print((a*d)+(b*c)) 
+        print((a*c)-(b*d),"+ i",(a*d)+(b*c)) 
+  
         
         
 class mag(A) :
@@ -57,6 +56,7 @@ class eq (A)  :
         m = (d-b)/(c-a) 
         print("Y - ",b,"=",m,"(X -",a,") of slope ",m)    
     
+        
         
 class anglediff (A) :
     
